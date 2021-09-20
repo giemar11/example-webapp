@@ -4,7 +4,7 @@ def ACCOUNT_REGISTRY_PREFIX
 def GIT_COMMIT_HASH
 
 pipeline {
-  aggent any
+  agent any
   stages('Checkout Source Code and Logging Into Registry') {
     steps {
       echo 'Logging Into the Private Registry'
